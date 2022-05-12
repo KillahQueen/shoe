@@ -1,0 +1,571 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale-1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/f00ff829e0.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Shoe Duka</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="navbar navbar-expand-lg px-4">
+        <a href="#" class="navbar-brand">
+          <img
+            src="https://cdn4.iconfinder.com/data/icons/shoes-15/500/SingleCartoonDifferentShoesAlice_10-128.png"
+            alt="main icon"
+          />
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#myNavbar"
+        >
+          <span class="toggler-icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="navbar-nav text-capitalize mx-auto">
+            <li class="nav-item active">
+              <a href="#header" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a href="#About" class="nav-link">About</a>
+            </li>
+            <li class="nav-item active">
+              <a href="#Store" class="nav-link">Store</a>
+            </li>
+            <li class="nav-item active">
+              <a href="#Services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item active">
+              <a href="#Stilletos" class="nav-link">Order</a>
+            </li>
+          </ul>
+          <div class="nav-info-items d-none d-lg-flex">
+            <div
+              class="nav-info align-items-center d-flex justify- content-between mx-lg-5"
+            ></div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            <p class="mb-0">+000 111 222</p>
+          </div>
+          <div
+            id="cart-info"
+            class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5"
+          >
+
+            <p class="mb-0 text-capitalize">
+              <span id="item-count">visit</span>
+              us
+              <span class="item-total">today</span>
+            </p>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="row max-height justify-content-center align-items-center">
+          <div class="col-10 mx-auto banner text-center">
+            <h1 id="banner" class="text-capitalize">
+              Welcome to<strong class="banner-title">
+                Shoe Duka
+              </strong>
+            </h1>
+            <a href="#Store" class="btn banner-link text-uppercase">explore</a>
+          </div>
+
+          <div class="cart" id="cart">
+            <div
+              class="cart-item d-flex justify-content-center text-capitalize my-3"
+            >
+              <div class="item-text">
+                <p id="cart-item-title" class="font-weight-bold mb-0">
+                  Stilettos
+                </p>
+                 <span id="cart-item-price" class="cart-item-price mb-0"
+                  >30% off!</span
+                >
+              </div>
+
+            </div>
+
+            <div
+              class="cart-item d-flex justify-content-center text-capitalize my-3"
+            >
+              <div class="item-text">
+                <p id="cart-item-title" class="font-weight-bold mb-0">
+                  Sandals
+                </p>
+
+                <span id="cart-item-price" class="cart-item-price mb-0"
+                  >40% off!</span
+                >
+              </div>
+              
+
+            
+            </div>
+
+           
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="about py-5" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto col-md-6 my-5">
+            <h1 class="text-capitalize">
+              about<strong class="banner-title"> us</strong>
+            </h1>
+            <p class="my-4 text-muted w-75">
+              We are a women-owned business that sources shoes from all over the
+              world of pristine quality and at an affordable price. 10% of our
+              profits go to UN Women with an aim to educate as many women as
+              possible regardless of circumstance.
+            </p>
+            <a href="#" class="btn btn-black text-uppercase">learn more</a>
+          </div>
+          <div class="col-10 mx-auto col-md-6 my-5 align-self-center">
+            <div class="about-img__container">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ80ur0zsWOJjlr10T7fzioPncMXrpD27X_vQ&usqp=CAU"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="store" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto col-sm-6 text-center">
+            <h1 class="text-capitalize">
+              our <strong class="banner-title"> store</strong>
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-8 mx-auto d-flex justify-content-around sortBtn flex-wrap"
+          >
+            <a
+              href="#"
+              class="btn btn-black text-uppercase filter-btn m-2"
+              data-filter="all"
+              >all</a
+            >
+            <a
+              href="#"
+              class="btn btn-black text-uppercase filter-btn m-2"
+              data-filter="all"
+              >boots</a
+            >
+            <a
+              href="#"
+              class="btn btn-black text-uppercase filter-btn m-2"
+              data-filter="all"
+              >sandals</a
+            >
+            <a
+              href="#"
+              class="btn btn-black text-uppercase filter-btn m-2"
+              data-filter="all"
+              >office shoes</a
+            >
+            <a
+              href="#"
+              class="btn btn-black text-uppercase filter-btn m-2"
+              data-filter="all"
+              >flats</a
+            >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-18 mx-auto col-md-6">
+            <form>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text search-box" id="search-icon">
+                    <i class="fas fa-search"></i>
+                  </span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="search-item"
+                  placeholder="shoe type..."
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row store-items" id="store-items">
+          <div
+            class="col-10 col-sm-6 col-lg-4 my-3 store-item boots"
+            data-item="boots"
+          >
+            <div class="card single-item">
+              <div class="img-container">
+                <img
+                  src="https://static3.sd-assets.com/assets/images/001/232/763/BECKEY-HS1938849-8016_A_FRONT-HERO-original.jpg"
+                  alt=""
+                  class="card-img-top store-img"
+                />
+                
+              </div>
+              <div class="card-body">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <h5 id="store-item-name">boots</h5>
+                  <h5 class="store-item-value">
+                    <strong id="store-item-price" class="font-weight-bold"
+                      >ksh. 6,500</strong
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-10 col-sm-6 col-lg-4 my-3 store-item boots"
+            data-item="boots"
+          >
+            <div class="card single-item">
+              <div class="img-container">
+                <img
+                  src="https://static3.sd-assets.com/assets/images/001/252/769/PATITA-2-PP1720556-7410_A_FRONT-HERO-original.jpg"
+                  alt=""
+                  class="card-img-top store-img"
+                />
+
+              </div>
+              <div class="card-body">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <h5 id="store-item-name">Sandals</h5>
+                  <h5 class="store-item-value">
+                    <strong id="store-item-price" class="font-weight-bold"
+                      >Ksh. 3,500</strong
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-10 col-sm-6 col-lg-4 my-3 store-item boots"
+            data-item="boots"
+          >
+            <div class="card single-item">
+              <div class="img-container">
+                <img
+                  src="https://static3.sd-assets.com/assets/images/001/219/635/PRETTY-MESS-PUMP-PP1932754-0002_A_FRONT-HERO-original.jpg"
+                  alt=""
+                  class="card-img-top store-img"
+                />
+
+              </div>
+              <div class="card-body">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <h5 id="store-item-name">Stilletos</h5>
+                  <h5 class="store-item-value">
+                    <strong id="store-item-price" class="font-weight-bold"
+                      >Ksh. 5,500</strong
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-10 col-sm-6 col-lg-4 my-3 store-item boots"
+            data-item="boots"
+          >
+            <div class="card single-item">
+              <div class="img-container">
+                <img
+                  src="https://static3.sd-assets.com/assets/images/001/241/330/AUDRI-PP1720776-0216_A_Front-hero-original.jpg"
+                  alt=""
+                  class="card-img-top store-img"
+                />
+
+              </div>
+              <div class="card-body">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <h5 id="store-item-name">Stilletos</h5>
+                  <h5 class="store-item-value">
+                    <strong id="store-item-price" class="font-weight-bold"
+                      >Ksh. 7,200</strong
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-10 col-sm-6 col-lg-4 my-3 store-item boots"
+            data-item="boots"
+          >
+            <div class="card single-item">
+              <div class="img-container">
+                <img
+                  src="https://static3.sd-assets.com/assets/images/001/245/822/VALLORY-PP2041086-8282_A_FRONT-HERO-original.jpg"
+                  alt=""
+                  class="card-img-top store-img"
+                />
+
+              </div>
+              <div class="card-body">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <h5 id="store-item-name">Stilletos</h5>
+                  <h5 class="store-item-value">
+                    <strong id="store-item-price" class="font-weight-bold"
+                      >Ksh. 5,700</strong
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-10 col-sm-6 col-lg-4 my-3 store-item boots"
+            data-item="boots"
+          >
+            <div class="card single-item">
+              <div class="img-container">
+                <img
+                  src="https://static3.sd-assets.com/assets/images/001/233/536/ISSY-PP1938414-3902_A_FRONT-HERO-original.jpg"
+                  alt=""
+                  class="card-img-top store-img"
+                />
+
+              </div>
+              <div class="card-body">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <h5 id="store-item-name">Stilletos</h5>
+                  <h5 class="store-item-value">
+                    <strong id="store-item-price" class="font-weight-bold"
+                      >Ksh. 7,400</strong
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-10 col-sm-6 col-lg-4 my-3 store-item boots"
+            data-item="boots"
+          >
+            <div class="card single-item">
+              <div class="img-container">
+                <img
+                  src="https://static3.sd-assets.com/assets/images/001/247/262/TRIXEY-BS2039269-2525_A_FRONT-HERO-original.jpg"
+                  alt=""
+                  class="card-img-top store-img"
+                />
+
+              </div>
+              <div class="card-body">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <h5 id="store-item-name">Boots</h5>
+                  <h5 class="store-item-value">
+                    <strong id="store-item-price" class="font-weight-bold"
+                      >Ksh. 6,900</strong
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-10 col-sm-6 col-lg-4 my-3 store-item boots"
+            data-item="boots"
+          >
+            <div class="card single-item">
+              <div class="img-container">
+                <img
+                  src="https://static3.sd-assets.com/assets/images/001/240/210/SHADY-BITCH-HS1938670-0502_A_FRONT-HERO-original.jpg"
+                  alt=""
+                  class="card-img-top store-img"
+                />
+
+              </div>
+              <div class="card-body">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <h5 id="store-item-name">Boots</h5>
+                  <h5 class="store-item-value">
+                    <strong id="store-item-price" class="font-weight-bold"
+                      >Ksh. 9,200</strong
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-10 col-sm-6 col-lg-4 my-3 store-item boots"
+            data-item="boots"
+          >
+            <div class="card single-item">
+              <div class="img-container">
+                <img
+                  src="https://static3.sd-assets.com/assets/images/001/239/915/DAYLENE-BOOTIE-BS1513272-2600_A_SIDE-HERO-original.jpg"
+                  alt=""
+                  class="card-img-top store-img"
+                />
+               
+              </div>
+              <div class="card-body">
+                <div
+                  class="card-text d-flex justify-content-between text-capitalize"
+                >
+                  <h5 id="store-item-name">Boots</h5>
+                  <h5 class="store-item-value">
+                    <strong id="store-item-price" class="font-weight-bold"
+                      >Ksh. 4,900</strong
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="services py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center my-3">
+            <img
+              src="data:image/jpeg;base64,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"
+            />
+            <h6 class="text-uppercase my-3 service-title">Sandals</h6>
+            <p class="w-75 mx-auto text-left service-text">
+              Our sandals are sourced internationally from Paris and Italy.
+            </p>
+          </div>
+          <div class="col-md-4 text-center my-3">
+            <img
+              src="data:image/png;base64,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"
+            />
+            <h6 class="text-uppercase my-3 service-title">Stilletos</h6>
+            <p class="w-75 mx-auto text-left service-text">
+              Our stilletos are shipped from the United States.
+            </p>
+          </div>
+          <div class="col-md-4 text-center my-3">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQTOdz-C3AvLkdFVIkg36aDfnVWJiRj15UAnw&usqp=CAU"
+            />
+            <h6 class="text-uppercase my-3 service-title">Boots</h6>
+            <p class="w-75 mx-auto text-left service-text">
+              Our boots are created using locally sourced materials and
+              artisans.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 footer-title py-5">
+            <h1 class="text-capitalize text-center">
+              <strong class="banner-title">Shoe Duka</strong>
+            </h1>
+            <div
+              class="footer-icons mt-3 d-flex justify-content-around flex-wrap"
+            >
+              <a href="#" class="footer-icon">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="#" class="footer-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="footer-icon">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="footer-icon">
+                <i class="fab fa-google-plus"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 footer-contact text-capitalize text-center p-5">
+            <h3 class="mb-5">contact</h3>
+            <p class="d-flex flex-wrap">
+              <span class="mr-4 footer-icon">
+                <i class="fas fa-map"></i>
+              </span>
+              <span>
+                Westlands, Nairobi
+              </span>
+            </p>
+            <p class="d-flex flex-wrap">
+              <span class="mr-4 footer-icon">
+                <i class="fas fa-phone"></i>
+              </span>
+              <span>
+                111-222-333
+              </span>
+            </p>
+            <p class="d-flex flex-wrap text-lowercase">
+              <span class="mr-4 footer-icon">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span>
+                nellie@gmail.com
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoftmJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <div id="root"></div>
+</html>

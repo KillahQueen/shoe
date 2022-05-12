@@ -1,0 +1,190 @@
+@import url("https://fonts.google.com/specimen/Yanone+Kaffeesatz/");
+
+body {
+  background-color: white;
+  color: black;
+  font-family: Yanone, Cyreal;
+}
+.btn-pink {
+  color: #e17055;
+  border-color: #e17055;
+}
+.btn-black {
+  color: black;
+  border-color: black;
+}
+.btn-black:hover {
+  background: black;
+  color: #fab1a0;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+.toggler-icon {
+  font-size: 40px;
+  color: #e17055;
+}
+.nav-link {
+  color: #f53b57;
+  font-size: 1.2rem;
+  transition: all 1s ease-in-out;
+}
+.nav-link:hover {
+  color: black;
+}
+.cart-info__icon {
+  color: black;
+  cursor: pointer;
+}
+.cart-info {
+  border: 0.1rem solid black;
+  color: black;
+  border-radius: 0.25rem;
+  padding: 0.4rem, 0.6rem;
+  cursor: pointer;
+}
+.cart-info:hover {
+  background: #fab1a0;
+  color: white;
+  border-color: #e17055;
+}
+.cart-info:hover .cart-info__icon {
+  color: white;
+}
+.max-height {
+  min-height: 850px;;
+  background: url("https://images.pexels.com/photos/1615799/pexels-photo-1615799.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#banner {
+  color: white;
+  margin-top: -4rem;
+}
+.banner-link {
+  color: black;
+  border: 0.1rem solid black;
+}
+.banner-link:hover {
+  background: black;
+  color: white;
+}
+.about-img__container {
+  position: relative;
+}
+.about-img__container::before {
+  content: "";
+  position: absolute;
+  top: -1.5rem;
+  left: -1.5rem;
+  width: 50%;
+  height: 97%;
+  outline: 0.2rem solid #fab1a0;
+  z-index: -1;
+  transition: all 1s linear;
+}
+.about-img__container:hover:before {
+  top: 0;
+  left: 0;
+}
+.store {
+  background: grey;
+}
+.search-box {
+  background: #ff7675;
+  color: black;
+}
+.single-item {
+  transition: all 0.3s linear;
+}
+.single-item:hover {
+  box-shadow: 0 10px 15px rgb(0, 0, 0);
+}
+.img-container {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.store-img {
+  transition: all 1s ease-in-out;
+}
+.img-container:hover .store-img {
+  transform: scale(1.1);
+}
+.store-item-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.75rem;
+  transition: all 1s ease-in-out;
+  transform: translate(100%, 100%);
+}
+.img-container:hover .store-item-icon {
+  transform: translate(0, 0);
+}
+.store-item-icon:hover {
+  color: #fab1a0;
+}
+
+.service-text {
+  font-family: cursive;
+}
+.services {
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://images.pexels.com/photos/3076787/pexels-photo-3076787.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
+      center/cover fixed no-repeat;
+}
+.service-title {
+  letter-spacing: 0.5rem;
+}
+.service-text {
+  word-spacing: o.5rem;
+}
+.footer-title {
+  background: black;
+  color: #fab1a0;
+}
+.footer-contact {
+  background: #fab1a0;
+}
+.footer-icon {
+  font-size: 1.5rem;
+  color: white;
+  transition: all 0.4 ease-in-out;
+}
+.footer-icon:hover {
+  color: #e17055;
+}
+.cart {
+  position: absolute;
+  min-height: 10rem;
+  background: rgba(255, 255, 255, 0.5);
+  top: 0;
+  right: 0;
+  transition: 0.3s ease-in-out;
+  width: 0;
+  overflow: hidden;
+}
+.show-cart {
+  padding: 2rem 1.5rem;
+  width: 12rem;
+  transform: rotateY(-360deg);
+}
+.cart-item {
+  transition: all 2s ease-in-out;
+}
+.cart-item-remove {
+  color: #e17055;
+  transition: all 1s ease-in-out;
+}
+.cart-item-remove:hover {
+  transform: scale(1.1);
+  color: black;
+}
+.cart-item-price {
+  font-size: 0.8rem;
+}
